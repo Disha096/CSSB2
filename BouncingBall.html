@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box {
+            margin-top: 100px;
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            color: red;
+            font-size: 30px;
+            border-radius: 100%;
+
+
+            animation: bouncingball 1.2s linear infinite alternate both;
+        }
+
+      
+        @keyframes bouncingball{
+          
+          0% {
+        transform: translateY(0) scaleX(1) scaleY(1);
+      }
+
+      
+      45% {
+        transform: translateY(220px) ;
+      }
+
+      
+      50% {
+        transform: translateY(240px);
+      }
+      
+      65% {
+        transform: translateY(120px);
+      }
+
+      100% {
+        transform: translateY(0) scaleX(1) scaleY(1);
+      }
+          
+        }  
+    </style>
+</head>
+
+<body>
+
+    <div class="box"> </div>
+</body>
+
+</html>
