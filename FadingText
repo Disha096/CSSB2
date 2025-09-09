@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FadeText</title>
+    <style>
+        .text {
+            margin-top: 100px
+            margin-left ; 20px   
+            background-color: white;
+            color: black;
+            font-size: 30px;
+
+            animation: fade 2s ease-in-out infinite;
+        }
+
+      
+        @keyframes fade {
+          0%, 100% { opacity: 0; }
+          50% { opacity: 1; }
+        }  
+    </style>
+</head>
+
+<body>
+
+    <div class="text">Hello!!This is Disha.</div>
+</body>
+
+</html>
